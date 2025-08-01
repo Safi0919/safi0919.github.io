@@ -35,6 +35,9 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
+import python from './tech/python.png';
+import java from './tech/java.png';
+import postman from './tech/postman.png';
 import rubyrails from './tech/rubyrails.png';
 
 import coverhunt from './company/coverhunt.png';
@@ -42,6 +45,7 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
+import egain from './company/egain.png';
 import peer from './company/peer.png';
 import tau from "./company/tau.png";
 import writing from "./company/writing.png";
@@ -83,8 +87,11 @@ export {
   graphql,
   html,
   javascript,
+  java,
   nodejs,
   postgresql,
+  postman,
+  python,
   rubyrails,
   reactjs,
   redux,
@@ -100,6 +107,7 @@ export {
   dcc,
   kelhel,
   microverse,
+  egain,
   peer,
   tau,
   writing,

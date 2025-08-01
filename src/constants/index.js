@@ -3,20 +3,13 @@ import {
   backend,
   ux,
   prototyping,
-  javascript,
-  typescript,
   html,
-  css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
   git,
-  figma,
   docker,
-  postgresql,
-  rubyrails,
-  graphql,
+  python,
+  java,
+  postman,
   komikult,
   leaderboard,
   math,
@@ -25,6 +18,7 @@ import {
   space,
   coverhunt,
   dcc,
+  egain,
   kelhel,
   microverse,
   peer,
@@ -73,73 +67,48 @@ const technologies = [
     icon: html,
   },
   {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
-    name: 'JavaScript',
-    icon: javascript,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Python',
+    icon: python,
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'Java',
+    icon: java,
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
-    name: 'git',
+    name: 'Git',
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
+    name: 'Docker',
     icon: docker,
   },
 ];
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "eGain",
+    icon: egain,
+    iconBg: "#333333",
+    date: "May 2025 - Present",
+  },
+  {
     title: "Vice President",
     company_name: "Tau Beta Pi",
     icon: tau,
     iconBg: "#333333",
-    date: "May 2024 - Present",
+    date: "June 2024 - May 2025",
   },
   {
     title: "Teaching Assistant, Data Structures and Algorithms",
     company_name: "Peer Connections",
     icon: peer,
     iconBg: "#333333",
-    date: "Jan 2024 - Present",
+    date: "Jan 2024 - May 2025",
   },
   {
     title: "Director of Academic Affairs",
@@ -180,7 +149,7 @@ const projects = [
     ],
     image: komikult,
     repo: "https://github.com/ROS-Mapping-Localiaztion-Enviroment/ROS_MLES",
-    demo: "https://github.com/ROS-Mapping-Localiaztion-Enviroment/ROS_MLES",
+    demo: "https://drive.google.com/file/d/1AovBhF0WxONeG5Yv_zw9chrwrrNronsv/view?usp=drive_link",
   },
   {
     id: "project-2",
@@ -202,8 +171,8 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: "https://github.com/shaqdeff/Leaderboard",
-    demo: "https://shaqdeff.github.io/Leaderboard/",
+    repo: "https://github.com/Safi0919/Fitness_Tracker",
+    demo: "https://www.youtube.com/watch?v=Qu2YM6VGWmg",
   },
   {
     id: "project-3",
@@ -230,25 +199,25 @@ const projects = [
   },
   {
     id: "project-4",
-    name: "Study Hub",
-    description: `A collaborative platform tailored for students seeking a dedicated space to connect, collaborate, and share academic resources.`,
+    name: "WorkPass Extension",
+    description: "A Chrome extension that enhances productivity by providing seamless access to work-related tools and resources directly in the browser.",
     tags: [
       {
-        name: "nextjs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "chrome-api",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "extension",
         color: "pink-text-gradient",
       },
     ],
     image: movie,
-    repo: "https://github.com/Safi0919/StudyHub",
-    demo: "https://github.com/Safi0919/StudyHub",
+    repo: "https://github.com/Safi0919/WorkPass",
+    demo: "https://chromewebstore.google.com/detail/workpass/cngapmbcoacjhgmknojbjnjdmehbcoeb",
   },
   {
     id: "project-5",

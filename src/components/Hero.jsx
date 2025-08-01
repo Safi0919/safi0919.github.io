@@ -7,7 +7,7 @@ import TypingEffect from "./TypingEffect";
 
 const Hero = () => {
   return (
-    <>
+    <div className="relative w-full h-screen">
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
         <img
           src={bwmap}
@@ -22,9 +22,20 @@ const Hero = () => {
           className="w-full h-full sm:hidden block object-cover"
         />
       </div>
+      
+      {/* Safi image positioned outside the section */}
+      <div className="absolute bottom-0 right-[-100px] pointer-events-auto z-10" style={{ bottom: '-120px' }}>
+        <img
+          className="color-changing-image h-auto max-h-[100vh] w-auto max-w-[85%] object-contain"
+          src={safi}
+          alt="safi"
+          style={{ marginBottom: 0 }}
+        />
+      </div>
+      
       <section
         className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
-        sm:bg-hero bg-hero-mobile overflow-hidden"
+        sm:bg-hero bg-hero-mobile"
       >
         <div
           className={`absolute inset-0 sm:top-[250px] top-[150px] 
@@ -94,17 +105,8 @@ const Hero = () => {
           </a>
         </div>
 
-        <div>
-          <img
-            className="color-changing-image absolute bottom-[-20vw] ml-[50vw]
-            lg:ml-[65vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[100vh]"
-            src={safi}
-            alt="safi"
-          />
-        </div>
       </section>
-    </>
+    </div>
   );
 };
 
